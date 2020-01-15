@@ -1,0 +1,19 @@
+package com.collectionTest;
+
+import java.util.Scanner;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x;
+		String s;
+		Scanner sc = new Scanner(System.in);
+		x= sc.nextInt();
+		s=sc.next();
+		
+		
+ System.out.println("ARUGUMENTS "+ x + s);
+	}
+
+}

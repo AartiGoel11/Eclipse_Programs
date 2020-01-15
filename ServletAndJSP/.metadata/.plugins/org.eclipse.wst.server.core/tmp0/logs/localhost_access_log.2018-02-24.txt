@@ -1,0 +1,9 @@
+127.0.0.1 - - [24/Feb/2018:23:26:11 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:23:26:16 +0530] "GET /JspDemo/helloworld.jsp HTTP/1.1" 200 352
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:23:27:16 +0530] "GET /JspDemo/helloworld.jsp HTTP/1.1" 200 352
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:23:36:05 +0530] "GET /JspDemo/expression-test.jsp HTTP/1.1" 200 86
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:23:36:13 +0530] "GET /JspDemo/expression-test.jsp HTTP/1.1" 200 86
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:23:38:30 +0530] "GET /JspDemo/expression-test.jsp HTTP/1.1" 200 126
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:23:39:53 +0530] "GET /JspDemo/expression-test.jsp HTTP/1.1" 200 168
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:23:54:19 +0530] "GET /JspDemo/scriptlet-test.jsp HTTP/1.1" 200 214
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:23:54:30 +0530] "GET /JspDemo/scriptlet-test.jsp HTTP/1.1" 200 214

@@ -1,0 +1,12 @@
+package com.collectionTest;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		args[0]="hello";
+		
+ System.out.println("ARUGUMENTS "+ args[0]);
+	}
+
+}

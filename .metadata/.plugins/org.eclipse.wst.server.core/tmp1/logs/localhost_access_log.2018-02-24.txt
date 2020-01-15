@@ -1,0 +1,6 @@
+127.0.0.1 - - [24/Feb/2018:12:01:09 +0530] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:12:01:11 +0530] "GET /ServletProject/servlet/com.aarti.servlet.SimpleServlet HTTP/1.1" 404 1135
+127.0.0.1 - - [24/Feb/2018:12:01:46 +0530] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:12:01:57 +0530] "GET /ServletProject/servlet/com.aarti.servlet.SimpleServlet HTTP/1.1" 404 1135
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:12:02:12 +0530] "GET /ServletProject/servlet/com.aarti.servlet.SimpleServlet HTTP/1.1" 404 1135
+0:0:0:0:0:0:0:1 - - [24/Feb/2018:12:02:31 +0530] "GET /ServletProject/servlet/com.aarti.servlet.SimpleServlet HTTP/1.1" 404 1135

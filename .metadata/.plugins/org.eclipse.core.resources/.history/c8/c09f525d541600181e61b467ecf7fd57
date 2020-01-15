@@ -1,0 +1,40 @@
+package com.arraylist;
+
+interface Parser
+{
+	String parse(String str);
+}
+
+class StringParser
+{
+	public static String convert(String str)
+	{
+		if(str.length()<=3)
+			str=str.toUpperCase();
+		else
+			str=str.toLowerCase();
+		
+		return str;
+			
+	}
+}
+
+class MyPrinter
+{
+	public void print(String s , Parser p)
+	{ s= p.parse(s);
+		System.out.println(s);
+	}
+}
+public class FirstCode {
+
+	public static void main(String[] args) {
+	String s ="Aar";
+ MyPrinter mp = new MyPrinter();
+ mp.print(s, str ->return StringParser.convert(str););		 
+		 
+		 	 
+ 
+	}
+
+}

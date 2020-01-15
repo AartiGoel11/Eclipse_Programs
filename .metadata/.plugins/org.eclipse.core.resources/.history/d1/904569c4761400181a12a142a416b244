@@ -1,0 +1,11 @@
+package com.luv2code.springdemo;
+
+public class RandomFortuneService implements FortuneService {
+ private String[] data= {"BasketBall", "Cricket", "Table Tennis"};
+ private Random random = new Random();
+	@Override
+	public String getFortune() {
+		return null;
+	}
+
+}

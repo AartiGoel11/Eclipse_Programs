@@ -1,0 +1,31 @@
+package com.collectionTest;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ComparatorClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Student> li =new ArrayList<>();
+		li.add(new Student(1,55));
+		li.add(new Student(1,45));
+		li.add(new Student(1,65));
+		li.add(new Student(1,30));
+		li.add(new Student(1,85));		
+
+	}
+
+	public class Student
+	{
+		int rollno;
+		int marks;
+		
+		public Student(int rollno, int marks) {
+			
+			this.rollno = rollno;
+			this.marks = marks;
+		}
+		
+	}
+}

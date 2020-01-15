@@ -1,0 +1,28 @@
+package com.arraylist;
+
+interface Parser
+{
+	String parse(String str);
+}
+
+class StringParser
+{
+	public static String convert(String str)
+	{
+		if(str.length()<=3)
+			str=str.toUpperCase();
+		else
+			str=str.toLowerCase();
+		
+		return str;
+			
+	}
+}
+public class FirstCode {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.wipro.file;
+
+public class Example1 {
+
+	static
+	{
+		System.out.println("hellooooo");
+	}
+
+ public static void main(String[] args)
+ {
+	 
+ }
+}

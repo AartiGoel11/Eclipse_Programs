@@ -1,0 +1,17 @@
+127.0.0.1 - - [01/Mar/2018:22:05:26 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:05:28 +0530] "GET /ServletProject/mainPage.html HTTP/1.1" 200 447
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:06:01 +0530] "GET /ServletProject/mainPage.html HTTP/1.1" 200 476
+127.0.0.1 - - [01/Mar/2018:22:30:13 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:30:14 +0530] "GET /ServletProject/ HTTP/1.1" 404 1024
+127.0.0.1 - - [01/Mar/2018:22:31:00 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:31:01 +0530] "GET /ServletProject/ HTTP/1.1" 200 485
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:31:04 +0530] "GET /ServletProject/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:31:05 +0530] "GET /ServletProject/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:31:26 +0530] "GET /ServletProject/ HTTP/1.1" 200 485
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:31:33 +0530] "GET /ServletProject/?uname=Aarti HTTP/1.1" 200 485
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:31:36 +0530] "GET /ServletProject/?uname= HTTP/1.1" 200 485
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:32:13 +0530] "GET /ServletProject/ HTTP/1.1" 200 501
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:32:17 +0530] "GET /ServletProject/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:22:32:23 +0530] "POST /ServletProject/LoginServlet HTTP/1.1" 200 40
+127.0.0.1 - - [01/Mar/2018:23:30:13 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [01/Mar/2018:23:30:15 +0530] "GET /ServletDemo/HelloWorldServlet HTTP/1.1" 200 114

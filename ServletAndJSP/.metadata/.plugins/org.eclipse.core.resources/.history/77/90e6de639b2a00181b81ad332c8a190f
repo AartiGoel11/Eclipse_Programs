@@ -1,0 +1,10 @@
+package org.koushik.javabrains;
+
+public class DrawingApp {
+
+	public static void main(String[] args) {
+		Triangle triange = new Triangle();
+		triange.draw();
+	}
+
+}

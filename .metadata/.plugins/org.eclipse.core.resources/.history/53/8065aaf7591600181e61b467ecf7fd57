@@ -1,0 +1,23 @@
+package com.arraylist;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Month;
+import java.time.ZoneId;
+
+public class DateTimeDemo {
+
+	public static void main(String[] args) {
+		LocalDate d = LocalDate.of(1989,Month.SEPTEMBER,30);
+		System.out.println(d);
+		
+		LocalTime t = LocalTime.now(ZoneId.of("Africa/Cairo"));
+		System.out.println("local time of Africa..."+t);
+		LocalTime t1 = LocalTime.of(5, 56, 34, 666);
+		System.out.println(t1);
+
+		for(String s : ZoneId.getAvailableZoneIds())
+			System.out.println(s);
+	}
+
+}

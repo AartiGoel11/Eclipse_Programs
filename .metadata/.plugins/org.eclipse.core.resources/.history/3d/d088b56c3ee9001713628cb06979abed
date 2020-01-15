@@ -1,0 +1,22 @@
+package com.collectionTest;
+
+public class ComparatorClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public class Student
+	{
+		int rollno;
+		int marks;
+		
+		public Student(int rollno, int marks) {
+			
+			this.rollno = rollno;
+			this.marks = marks;
+		}
+		
+	}
+}

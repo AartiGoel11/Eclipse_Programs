@@ -1,0 +1,19 @@
+package com.arraylist;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Month;
+
+public class DateTimeDemo {
+
+	public static void main(String[] args) {
+		LocalDate d = LocalDate.of(1989,Month.SEPTEMBER,30);
+		System.out.println(d);
+		
+		LocalTime t = LocalTime.now();
+		System.out.println(t);
+		LocalTime t1 = LocalTime.of(5, 56, 34, 666);
+
+	}
+
+}
